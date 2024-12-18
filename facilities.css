@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header.header {
+    background-color: navy;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;
+}
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    padding: 10px 0;
+}
+.header .logo {
+    height: 100px; /* Adjust the logo size */
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 10px;
+    float: left;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+
+
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 2rem auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slide {
+    display: none;
+    position: relative;
+}
+
+.slide img {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.facilities-list {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.facilities-list h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #004080;
+}
+
+.facility {
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.facility h3 {
+    color: #004080;
+    margin-bottom: 0.5rem;
+}
+
+.facility p {
+    color: #666;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}

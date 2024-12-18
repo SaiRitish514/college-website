@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header.header {
+    background-color: navy;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;
+}
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    padding: 10px 0;
+}
+.header .logo {
+    height: 100px; /* Adjust the logo size */
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 10px;
+    float: left;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.club-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.club-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.club-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.club-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+.club-card p {
+    font-size: 1rem;
+    color: #555;
+}
+.club-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}

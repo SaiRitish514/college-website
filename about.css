@@ -1,0 +1,111 @@
+/* Common styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    box-sizing: border-box;
+}
+
+header.header {
+    background-color: navy;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;
+}
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    padding: 10px 0;
+}
+.header .logo {
+    height: 100px; /* Adjust the logo size */
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 10px;
+    float: left;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 2rem 0 1rem;
+    color: #004080;
+}
+
+.achievement-cards, .management-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.card, .info-box {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.card img, .info-box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Slideshow */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    text-align:center;
+}
+
+.slide img {
+    width:70%;
+    height: 80%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
